@@ -5,9 +5,10 @@ public class Main {
         Landline ll = new Landline("9547746752");
         Landline ll2 = new Landline("7718763602");
 
-        ll.callNumber("7718763602");
+        ll.callNumber("7718706362");
         ll2.receiveCall("7718763602");
         System.out.println(ll2.answerCall());
+        ll.sentMessage("7718763602", "9547746752");
 
 
 
